@@ -1,0 +1,14 @@
+{
+  "name": "tihh.php.obj.db.mysql",
+  "homepage": "https://github.com/tihhgoncalves/tihh.php.obj.db.mysql",
+  "_release": "e798f807a6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e798f807a6f2ce9805ec87d9f3a269de55655841"
+  },
+  "_source": "https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.git",
+  "_direct": true
+}
