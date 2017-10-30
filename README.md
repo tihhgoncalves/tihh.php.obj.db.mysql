@@ -4,10 +4,21 @@ Objeto de PHP que administra conexões de um site com o banco de dados de MySQL.
 [![Versão](http://app.tiago.art.br/flags/version.php?path=tihhgoncalves/tihh.php.obj.db.mysql)](/releases.md)
 [![Versão](http://app.tiago.art.br/flags/size.php?path=tihhgoncalves/tihh.php.obj.db.mysql)](/releases.md)
 
+
+### Instalação
+Para utilizar esse script, utilize o seguinte comando:
+
+```
+  bower install https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.git --save
+```
+
+P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
+
 ### Exemplo
 
 ```
   <?
+  
   require('bower_components/tihh.php.obj.db.mysql/load.php');
   
   $db = new tihh_db_mysql('localhost', 'root', '123', 'db1');
