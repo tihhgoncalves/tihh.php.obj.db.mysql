@@ -1,5 +1,11 @@
 <?
 
+/**
+ * Objeto de PHP que administra conexões de um site com o banco de dados de MySQL.
+ *
+ * versão 1.0
+ *
+ */
 class tihh_db_mysql {
 
   const version = '1.0';
