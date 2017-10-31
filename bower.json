@@ -10,5 +10,23 @@
   "_source": "https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.git",
   "_target": "*",
   "_originalSource": "https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.git",
-  "_direct": true
+  "_direct": true,
+  "authors": [
+    "Tihh Gonçalves <tiago@tiago.art.br>"
+  ],
+  "description": "Objeto de PHP que administra conexões de um site com o banco de dados de MySQL.",
+  "main": "load.php",
+  "keywords": [
+    "php",
+    "mysql",
+    "db",
+    "database",
+    "php",
+    "base"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".idea",
+    "bower_components"
+  ]
 }

@@ -9,7 +9,7 @@ Objeto de PHP que administra conexões de um site com o banco de dados de MySQL.
 Para utilizar esse script, utilize o seguinte comando:
 
 ```
-  bower install https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.git --save
+  bower install tihh.php.obj.db.mysql --save
 ```
 
 P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
