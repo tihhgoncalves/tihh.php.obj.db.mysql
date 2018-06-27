@@ -1,15 +1,15 @@
-# Objeto de PHP - tihh_db_mysql()
-Objeto de PHP que administra conexões de um site com o banco de dados de MySQL.
+# Objeto de PHP - tihh_uri()
+Objeto de PHP que retorna o path e a url base do site.
 
-[![Versão](http://app.tiago.art.br/flags/version.php?path=tihhgoncalves/tihh.php.obj.db.mysql)](#)
-[![Size](http://app.tiago.art.br/flags/size.php?path=tihhgoncalves/tihh.php.obj.db.mysql)](#)
+[![Versão](http://app.tiago.art.br/flags/version.php?path=tihhgoncalves/tihh.site.uri.php)](#)
+[![Size](http://app.tiago.art.br/flags/size.php?path=tihhgoncalves/tihh.site.uri.php)](#)
 
 
 ### Instalação
 Para utilizar esse script, utilize o seguinte comando:
 
 ```
-  bower install tihh.php.obj.db.mysql --save
+  bower install tihh.site.uri.php --save
 ```
 
 P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
@@ -19,20 +19,15 @@ P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
 ```
   <?
   
-  require('bower_components/tihh.php.obj.db.mysql/load.php');
+  require('bower_components/tihh.site.uri.php/load.php');
   
-  $db = new tihh_db_mysql('localhost', 'root', '123', 'db1');
-  $usuarios = $db->LoadObjects('SELECT * FROM usuario ORDER BY Nome ASC');
-  
-  foreach($usuarios as $usuario){
-    echo('Usuário: ' . $usuario->Nome . "\r\n");
-  }
+  /*... EM BREVE ...*/
   
   ?>
 ```
 
 ### Autor
-![logo](https://raw.githubusercontent.com/tihhgoncalves/tihh.php.obj.db.mysql/master/logo.png)
+![logo](https://raw.githubusercontent.com/tihhgoncalves/tihh.site.uri.php/master/logo.png)
 
 
 Esse script de PHP foi desenvolvido por Tihh Gonçalves (tiago@tiago.art.br). 
