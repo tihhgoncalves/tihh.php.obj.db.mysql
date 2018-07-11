@@ -26,8 +26,8 @@ class tihh_db_mysql {
 
 
     //Verifica se extensão está habilitada no PHP
-    if(!function_exists('mysql_connect'))
-      throw new Exception('[tihh_db_mysql] A extensão mysql de conexão com o banco de dados não está habilitada no seu servidor.');
+    if(!function_exists('mysqli_connect'))
+      throw new Exception('[tihh_db_mysql] A extensão mysqli de conexão com o banco de dados não está habilitada no seu servidor.');
 
     $this->conn = mysqli_connect($host, $user, $pass);
 
