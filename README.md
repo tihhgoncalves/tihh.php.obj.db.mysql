@@ -16,14 +16,14 @@ P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
 
 ### Exemplo
 
-```
-  <?
+```php
+  <?php
   
   require('bower_components/tihh.php.obj.db.mysql/load.php');
   
   $db = new tihh_db_mysql('localhost', 'root', '123', 'db1');
   $usuarios = $db->LoadObjects('SELECT * FROM usuario ORDER BY Nome ASC');
-  
+
   foreach($usuarios as $usuario){
     echo('Usuário: ' . $usuario->Nome . "\r\n");
   }
